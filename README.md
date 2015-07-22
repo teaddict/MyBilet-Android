@@ -10,4 +10,12 @@ Bu uygulama, bir sabah aceleyle tramvaya koşup yine o sinir bozucu yeterli baki
 2- Çift biniş: aynı kartı aynı otobüste birden fazla kullandığında eğer öğrenciysen birden fazla kullanımda senden tam kesiyor. Tam kart kullanıcıysan sıkıntı yok. Bu öğrenci kart için değişken.
 3- Aktarma: Aktarma ücretini de girip kullanmaya başlayabilirsiniz.
 
+Ayrıca widget olarak da ekleyebilirsiniz. Widget boyutlarını tam ayarlayamadım. Sonradan eklediğim için böyle kaldı.
+
 ##Programdan Tasarım Harikaları(!)
+######Home
+![alt tag](https://github.com/teaddict/disaster-machine/blob/master/dfa.jpg)
+######Settings
+![alt tag](https://github.com/teaddict/disaster-machine/blob/master/dfa.jpg)
+######Widget
+![alt tag](https://github.com/teaddict/disaster-machine/blob/master/dfa.jpg)
