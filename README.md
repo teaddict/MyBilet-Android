@@ -14,10 +14,10 @@ Bu uygulama, bir sabah aceleyle tramvaya koşup yine o sinir bozucu yeterli baki
 Ayrıca widget olarak da ekleyebilirsiniz. Widget boyutlarını tam ayarlayamadım. Sonradan eklediğim için böyle kaldı.
 
 ##Project's Story  
-One morning , I was in hurry, I run to catch tramvay but when i used bus-card, i heard the annoying the sound of machine which means "hey you didn't have enough money". When we are in hurry mostly it happens and we can't use it. We run back to load money. So this program is very simply and lacks design because it is created only for knowing if we have enough money or not.
+One morning , I was in hurry, I run to catch tram but when i used bus-card, i heard the annoying the sound of machine which means "hey you didn't have enough money". When we are in hurry mostly it happens and we can't use it. We run back to load money. So this program is very simply and lacks design because it is created only for knowing if we have enough money or not.
 
 ##How it works ?  
-At first you should open settings and input the current bus(tramvay) fare etc.. If you use full card you should check the option because the default is student card. After that you should input the current money you have got. After using your bus-card you should click and update the application. It is specially for cities which still dont use intelligent card etc. For example : Eskişehir.
+At first you should open settings and input the current bus(tram) fare etc.. If you use full card you should check the option because the default is student card. After that you should input the current money you have got. After using your bus-card you should click and update the application. It is specially for cities which still dont use intelligent card etc. For example : Eskişehir.
 
 It has got three buttons:   
 1- Single : takes money only for one person    
