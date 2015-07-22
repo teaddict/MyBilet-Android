@@ -6,13 +6,10 @@ Bu uygulama, bir sabah aceleyle tramvaya koşup yine o sinir bozucu yeterli baki
 ##Program Nasıl Çalışıyor?
 Öncelikle yaşadığını şehirdeki bilet ücretlerini girmeniz gerekiyor. Tam bilet ya da indirimli kullanıyorsanız ona göre ayarlayın, tam kart için tik atmayı unutmayın. Daha sonra mevcut bakiyenizi giriyorsunuz. Her kartını kullandığınız da bi tıklayıp bakiyenizi güncelliyorsunuz. Özellikle daha akıllı kartlara sistemlere geçmemiş şehirler için bu yöntem geçerli. Eskişehir gibi mesela.
 
-Üç butonu var:
-
-1- Tek biniş : tek bilet ücreti keser
-
-2- Çift biniş: aynı kartı aynı otobüste birden fazla kullandığında eğer öğrenciysen birden fazla kullanımda senden tam kesiyor. Tam kart kullanıcıysan sıkıntı yok. Bu öğrenci kart için değişken.
-
-3- Aktarma: Aktarma ücretini de girip kullanmaya başlayabilirsiniz.
+Üç butonu var:  
+1- Tek biniş : tek bilet ücreti keser  
+2- Çift biniş: aynı kartı aynı otobüste birden fazla kullandığında eğer öğrenciysen birden fazla kullanımda senden tam kesiyor. Tam kart kullanıcıysan sıkıntı yok. Bu öğrenci kart için değişken.  
+3- Aktarma: Aktarma ücretini de girip kullanmaya başlayabilirsiniz.  
 
 Ayrıca widget olarak da ekleyebilirsiniz. Widget boyutlarını tam ayarlayamadım. Sonradan eklediğim için böyle kaldı.
 
