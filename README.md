@@ -14,8 +14,8 @@ Ayrıca widget olarak da ekleyebilirsiniz. Widget boyutlarını tam ayarlayamad�
 
 ##Programdan Tasarım Harikaları(!)
 ######Home
-![alt tag](https://github.com/teaddict/MyBilet-Android/blob/master/home.jpg)
+![alt tag](https://github.com/teaddict/MyBilet-Android/blob/master/home.png)
 ######Settings
-![alt tag](https://github.com/teaddict/MyBilet-Android/blob/master/settings.jpg)
+![alt tag](https://github.com/teaddict/MyBilet-Android/blob/master/settings.png)
 ######Widget
-![alt tag](https://github.com/teaddict/MyBilet-Android/blob/master/widget.jpg)
+![alt tag](https://github.com/teaddict/MyBilet-Android/blob/master/widget.png)
