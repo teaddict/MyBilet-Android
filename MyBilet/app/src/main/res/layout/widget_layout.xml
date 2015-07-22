@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aktarma"
+        android:id="@+id/Aktarma"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <!--<Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="cift"
+        android:id="@+id/Cift"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@android:color/holo_red_light"
+        android:layout_toEndOf="@+id/Aktarma" />
+        -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Yükleniyor.."
+        android:id="@+id/Bakiye"
+        android:layout_below="@+id/Aktarma"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Çift"
+        android:id="@+id/btnCift"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/Bakiye"
+        android:layout_toEndOf="@+id/Bakiye" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tek"
+        android:id="@+id/btnTek"
+        android:layout_alignBottom="@+id/Aktarma"
+        android:layout_toLeftOf="@+id/Bakiye"
+        android:layout_toStartOf="@+id/Bakiye" />
+</RelativeLayout>

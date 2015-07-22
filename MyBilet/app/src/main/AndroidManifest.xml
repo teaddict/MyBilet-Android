@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.schwappkopf.mybilet" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+          <receiver android:name=".Widget"
+              android:label="@string/app_name">
+              <intent-filter>
+                  <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                  <action android:name="ACTION_WIDGET_TEK"/>
+                  <action android:name="ACTION_WIDGET_AKTARMA"/>
+                  <action android:name="ACTION_WIDGET_CIFT"/>
+              </intent-filter>
+
+              <meta-data
+                  android:name="android.appwidget.provider"
+                  android:resource="@layout/appwidgetprovider" />
+         </receiver>
+    <!--
+        <receiver android:name=".WidgetService"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="ACTION_WIDGET_TEK"/>
+                <action android:name="ACTION_WIDGET_AKTARMA"/>
+                <action android:name="ACTION_WIDGET_CIFT"/>
+            </intent-filter>
+        </receiver> -->
+
+
+          <activity
+              android:name=".MainActivity"
+              android:label="@string/app_name" >
+              <intent-filter>
+                  <action android:name="android.intent.action.MAIN" />
+
+                  <category android:name="android.intent.category.LAUNCHER" />
+              </intent-filter>
+          </activity>
+          <activity
+              android:name=".Settings"
+              android:label="@string/title_activity_settings" >
+          </activity>
+      </application>
+
+  </manifest>

@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="GÜNCEL BAKİYE"
+        android:id="@+id/tvGuncelBilgi"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/tvGuncelBakiye"
+        android:layout_below="@+id/tvGuncelBilgi"
+        android:layout_alignLeft="@+id/tvGuncelBilgi"
+        android:layout_alignStart="@+id/tvGuncelBilgi"
+        android:layout_alignRight="@+id/tvGuncelBilgi"
+        android:layout_alignEnd="@+id/tvGuncelBilgi"
+        android:textColor="#ffff1535"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textAlignment="center" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btTek"
+        android:layout_marginTop="40dp"
+        android:onClick="tek"
+        android:src="@drawable/tek"
+        android:layout_below="@+id/tvGuncelBakiye"
+        android:layout_toLeftOf="@+id/tvGuncelBakiye"
+        android:layout_toStartOf="@+id/tvGuncelBakiye" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btCift"
+        android:onClick="cift"
+        android:src="@drawable/cift"
+        android:layout_toEndOf="@+id/tvGuncelBakiye"
+        android:layout_above="@+id/btAktarma"
+        android:layout_toRightOf="@+id/tvGuncelBakiye" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btAktarma"
+        android:src="@drawable/aktarma"
+        android:layout_below="@+id/btTek"
+        android:layout_centerHorizontal="true"
+        android:onClick="aktarma" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Settings"
+        android:id="@+id/button"
+        android:layout_below="@+id/btAktarma"
+        android:layout_marginTop="58dp"
+        android:layout_alignLeft="@+id/btTek"
+        android:layout_alignStart="@+id/btTek"
+        android:layout_alignRight="@+id/btCift"
+        android:layout_alignEnd="@+id/btCift"
+        android:onClick="ayarla"
+        android:background="@android:color/holo_blue_light" />
+</RelativeLayout>
