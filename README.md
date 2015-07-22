@@ -14,8 +14,8 @@ Ayrıca widget olarak da ekleyebilirsiniz. Widget boyutlarını tam ayarlayamad�
 
 ##Programdan Tasarım Harikaları(!)
 ######Home
-![alt tag](https://github.com/teaddict/disaster-machine/blob/master/dfa.jpg)
+![alt tag](https://github.com/teaddict/MyBilet-Android/blob/master/home.jpg)
 ######Settings
-![alt tag](https://github.com/teaddict/disaster-machine/blob/master/dfa.jpg)
+![alt tag](https://github.com/teaddict/MyBilet-Android/blob/master/settings.jpg)
 ######Widget
-![alt tag](https://github.com/teaddict/disaster-machine/blob/master/dfa.jpg)
+![alt tag](https://github.com/teaddict/MyBilet-Android/blob/master/widget.jpg)
